@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	char prog="Programming is like building a multilingual puzzle";
-putchar(prog);
-putchar('\n');
-return(0);
+	const char *prog = "Programming is like building a multilingual puzzle";
+	putchar(prog);
+	putchar('\n');
+	return(0);
 }
