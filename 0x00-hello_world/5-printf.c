@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
-*entrance point main
+*main - Entrance point main
 *
-*using printf
-*always return 0
+*Explanation: to display using printf
+*parameter: function printf
+*
+*Return: always return 0
 */
 int main(void)
 {
