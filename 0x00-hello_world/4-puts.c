@@ -1,12 +1,15 @@
 #include <stdio.h>
 /**
- *
- *printing with putchar
- */
+*main - Entrance point main
+*
+*Explanation: printing with puts
+*parameter: function puts
+*
+*Return: always return 0
+*/
 int main(void)
 {
-	const char *prog = "Programming is like building a multilingual puzzle";
-	putchar(prog);
-	putchar('\n');
-	return(0);
+	char str[55] = "Programming is like building a multilingual puzzle\n";
+	puts(str);
+	return (0);
 }
