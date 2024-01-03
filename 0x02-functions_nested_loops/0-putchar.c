@@ -17,8 +17,7 @@ int main(void)
 	putchar(104);
 	putchar(97);
 	putchar(114);
-	putchar(92);
-	putchar(110);
+	putchar('\n');
 
 	return (0);
 
