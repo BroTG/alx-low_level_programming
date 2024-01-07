@@ -5,7 +5,7 @@
 *Explanation: printing all single digit numbers of base 10 from 0
 *paramter: for and printf
 *
-*return: always return 0
+*Return: always return 0
 */
 int main(void)
 {
