@@ -2,7 +2,7 @@
 /**
 *main - Entrance point
 *
-Explanation: to display lowercase alphabets with putchar
+*Explanation: to display lowercase alphabets with putchar
 *parameter: putchar
 *
 *Return: Always return 0
