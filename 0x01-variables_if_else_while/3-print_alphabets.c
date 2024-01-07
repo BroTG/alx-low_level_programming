@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main: - Entrance point main
+*main - Entrance point main
 *
 *Explanation: to display lowercase and uppercase letters
 *parameter: for and putchar
