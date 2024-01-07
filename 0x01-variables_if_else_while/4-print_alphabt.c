@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - Entrance point 
+*main - Entrance point
 *
 *Explanation: display lowercase alphabet excpt q and e
 *prameter for if and putchar
