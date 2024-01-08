@@ -14,12 +14,9 @@ int main(void)
 
 	for (a = 0; a <= 9; ++a)
 	{
-		for (b = 0; b <= 9; ++b)
-		{
-			putchar('0' + a);
-			putchar('0' + b);
-			putchar(44);
-		}
+		putchar('0' + a);
+		putchar(44);
+		putchar(32);
 
 	}
 	putchar('\n');
