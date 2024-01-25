@@ -5,7 +5,7 @@
 *
 *Return: Nothing.
 */
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
 	f(name);
 }
@@ -30,9 +30,8 @@ void f_function(char *str)
 */
 int main(void)
 {
-char aName[];
+char aName[] = "Tycoon";
 
-aName[] = "Tycoon";
 print_name(aName, f_function);
 
 return (0);
