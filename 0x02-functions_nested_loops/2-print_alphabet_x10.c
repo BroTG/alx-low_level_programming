@@ -8,6 +8,9 @@
 *Return: void
 */
 
+#ifndef LWCSE
+#define LWCSE
+
 void print_alphabet_x10(void)
 {
 	int i;
@@ -17,3 +20,5 @@ void print_alphabet_x10(void)
 		print_alphabet();
 	}
 }
+
+#endif
