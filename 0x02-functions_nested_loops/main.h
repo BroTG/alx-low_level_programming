@@ -15,3 +15,10 @@ void print_alphabet(void)
 }
 
 #endif
+
+#ifndef LETTER
+#define LETTER
+
+void print_alphabet_x10(void);
+
+#endif
