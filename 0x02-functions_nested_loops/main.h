@@ -2,16 +2,6 @@
 #define LOWCASE
 #include <stdio.h>
 
-void print_alphabet(void)
-{
-	char alph;
+void print_alphabet(void);
 
-	for (alph = 'a'; alph <= 'z'; alph++)
-	{
-		putchar(alph);
-
-	}
-	putchar('\n');
-
-}
 #endif
