@@ -1,4 +1,14 @@
 #include <stdio.h>
+#ifndef PUTCHAR
+#define PUTCHAR
+
+int _putchar (char b)
+{
+	return (putchar(b));
+}
+
+#endif
+
 #ifndef LOWCASE
 #define LOWCASE
 
@@ -6,7 +16,7 @@ void print_alphabet(void)
 {
 	char alph;
 
-	for (alph = 'a'; alph <='z'; alph++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		putchar(alph);
 	}
@@ -29,7 +39,6 @@ void print_alphabet_x10(void);
 int _islower(int c);
 
 #endif
-
 /**
 *referencing - for citing helps
 *Reference: ChatGPT
