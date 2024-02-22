@@ -3,10 +3,7 @@
 #ifndef PUTCHAR
 #define PUTCHAR
 
-int _putchar (char b)
-{
-	return (putchar(b));
-}
+int _putchar(char b);
 
 #endif
 
