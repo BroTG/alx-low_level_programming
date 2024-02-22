@@ -9,6 +9,11 @@
 */
 int _abs(int j)
 {
-	int abs(int j);
-	return (j);
+	int absv = abs(j);
+
+	return (absv);
 }
+/**
+*referencing - citing help
+*Reference: ChatGPT
+*/
