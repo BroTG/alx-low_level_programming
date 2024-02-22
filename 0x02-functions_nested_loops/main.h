@@ -50,6 +50,12 @@ int _isalpha(int c);
 
 int print_sign(int n);
 #endif
+
+#ifndef ABS
+#define ABS
+
+int _abs(int);
+#endif
 /**
 *referencing - for citing helps
 *Reference: ChatGPT
