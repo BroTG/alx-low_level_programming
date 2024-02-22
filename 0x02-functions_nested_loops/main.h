@@ -56,6 +56,12 @@ int print_sign(int n);
 
 int _abs(int);
 #endif
+
+#ifndef LDG
+#define LDG
+
+int print_last_digit(int);
+#endif
 /**
 *referencing - for citing helps
 *Reference: ChatGPT
