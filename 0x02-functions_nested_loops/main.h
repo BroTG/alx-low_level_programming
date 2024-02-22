@@ -44,6 +44,12 @@ int _islower(int c);
 int _isalpha(int c);
 
 #endif
+
+#ifndef SIGN
+#define SIGN
+
+int print_sign(int n);
+#endif
 /**
 *referencing - for citing helps
 *Reference: ChatGPT
