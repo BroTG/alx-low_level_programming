@@ -37,6 +37,13 @@ void print_alphabet_x10(void);
 int _islower(int c);
 
 #endif
+
+#ifndef ISALPHA
+#define ISALPHA
+
+int _isalpha(int c);
+
+#endif
 /**
 *referencing - for citing helps
 *Reference: ChatGPT
