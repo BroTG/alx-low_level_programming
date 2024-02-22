@@ -22,3 +22,15 @@ void print_alphabet(void)
 void print_alphabet_x10(void);
 
 #endif
+
+#ifndef LWC
+#define LWC
+
+int _islower(int c);
+
+#endif
+
+/**
+*referencing - for citing helps
+*Reference: ChatGPT
+*/
