@@ -8,17 +8,18 @@
 *Return: void
 */
 
-#ifndef LWCSE
-#define LWCSE
-
 void print_alphabet_x10(void)
 {
 	int i;
+	char lwc;
 
 	for (i = 1; i <= 10; i++)
 	{
-		print_alphabet();
+		for (lwc = 'a'; lwc <= 'z'; lwc++)
+		{
+			putchar(lwc);
+
+		}
+		putchar('\n');
 	}
 }
-
-#endif
